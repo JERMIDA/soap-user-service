@@ -16,7 +16,7 @@ WSDL available at:
 
 http://localhost:8080/ws/users.wsdl
 
-🧩 Example SOAP Request (Postman)
+ Example SOAP Request (Postman)
 
 Method: POST
 URL: http://localhost:8080/ws
@@ -38,7 +38,7 @@ Body (raw → XML):
    </soapenv:Body>
 </soapenv:Envelope>
 
-✅ Example SOAP Response
+ Example SOAP Response
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
    <soapenv:Body>
       <usr:getUserResponse xmlns:usr="http://example.com/users">
@@ -49,7 +49,7 @@ Body (raw → XML):
    </soapenv:Body>
 </soapenv:Envelope>
 
-🧠 Project Structure
+Project Structure
 soap-user-service/
  ├── src/
  │   ├── main/
@@ -64,7 +64,7 @@ soap-user-service/
  ├── pom.xml
  └── README.md
 
-💡 Notes
+Notes
 
 Built with Spring Boot 3.3.2
 
@@ -72,10 +72,10 @@ SOAP endpoint: /ws
 
 Uses JAXB for XML binding and Spring-WS for SOAP handling
 
-🧰 Commands
+ Commands
 git add .
 git commit -m "Add README and SOAP service setup"
 git push
 
 
-Made with ❤️ using Spring Boot + SOAP
+Made with  using Spring Boot + SOAP
