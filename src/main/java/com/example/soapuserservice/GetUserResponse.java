@@ -15,6 +15,7 @@ public class GetUserResponse {
     private String email;
 
     public Long getId() {
+        
         return id;
     }
 
