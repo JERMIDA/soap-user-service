@@ -2,6 +2,8 @@
 
 A simple **Spring Boot SOAP web service** that provides user details using a `getUser` operation.
 
+![POST /users Response](images/hello.jpg)
+
 ---
 Run the Service
 
