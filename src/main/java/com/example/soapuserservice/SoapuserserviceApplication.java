@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SoapuserserviceApplication {
 
 	public static void main(String[] args) {
+		
 		SpringApplication.run(SoapuserserviceApplication.class, args);
 	}
 
