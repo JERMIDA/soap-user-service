@@ -142,15 +142,29 @@ Designed and tested a RESTful Web API using Spring Boot for performing CRUD oper
 - JSON responses returned as expected.  
 - Verified user creation, retrieval, update, and deletion.\
 - Screenshot 1: POST /users response
+- 
      ![POST/users response ](images/userResponse1.jpg)
+
+  
 - Screenshot 2: GET /users response
+- 
      ![POST/users response ](images/userResponse2.jpg)
+
+  
 - Screenshot 3: GET /users/1 response
+- 
      ![POST/users response ](images/userResponse3.jpg)
+
+  
 - Screenshot 4: PUT /users/1 response
+- 
      ![POST/users response ](images/userResponse4.jpg)
+
+  
 - Screenshot 5: DELETE /users/1 response
-     ![POST/users response ](images/userResponse5.jpg) 
+- 
+     ![POST/users response ](images/userResponse5.jpg)
+  
       
 ---
 
