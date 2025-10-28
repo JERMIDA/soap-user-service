@@ -8,6 +8,7 @@ class SoapuserserviceApplicationTests {
 
 	@Test
 	void contextLoads() {
+		
 	}
 
 }
