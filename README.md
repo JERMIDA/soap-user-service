@@ -137,11 +137,21 @@ Designed and tested a RESTful Web API using Spring Boot for performing CRUD oper
    | Update | PUT | /users/1 | Updated user |
    | Delete | DELETE | /users/1 | “User with ID 1 deleted.” |
 
-### 2.4 Results
+###Results
 - CRUD operations tested successfully.  
 - JSON responses returned as expected.  
-- Verified user creation, retrieval, update, and deletion.
-
+- Verified user creation, retrieval, update, and deletion.\
+- Screenshot 1: POST /users response
+     ![POST/users response ](images/userResponse1.jpg)
+- Screenshot 2: GET /users response
+     ![POST/users response ](images/userResponse2.jpg)
+- Screenshot 3: GET /users/1 response
+     ![POST/users response ](images/userResponse3.jpg)
+- Screenshot 4: PUT /users/1 response
+     ![POST/users response ](images/userResponse4.jpg)
+- Screenshot 5: DELETE /users/1 response
+     ![POST/users response ](images/userResponse5.jpg) 
+      
 ---
 
 ## 3. SOAP-Based Web Service
@@ -308,10 +318,11 @@ SOAP Response:
 - SOAP requests/responses properly structured.  
 - Verified end-to-end SOAP workflow in Postman.  
 - Demonstrated fully functional SOAP-based service.
-
+- Screenshots of Postman Soap Request and Response
+  ![POST/users response ](images/soapReq_res.jpg)
 ---
 
-## 📚 Summary
+## Summary
 This project covers:
 - RESTful API creation with CRUD operations.  
 - SOAP Web Service configuration, WSDL generation, and XML-based data exchange.  
