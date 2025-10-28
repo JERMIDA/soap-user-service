@@ -10,11 +10,13 @@ public class UserEndpoint {
 
     private static final String NAMESPACE_URI = "http://example.com/users";
 
+    // This method handles getUserRequest and returns user data
     @PayloadRoot(namespace = NAMESPACE_URI, localPart = "getUserRequest")
     @ResponsePayload
     public GetUserResponse getUser(@RequestPayload GetUserRequest request) {
         GetUserResponse response = new GetUserResponse();
 
+        // Handle different user IDs
         if (request.getId() == 1) {
             response.setName("ESHETU");
             response.setEmail("eshetu@gmail.com");
